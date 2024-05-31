@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export const Hero = () => {
     return (
         <motion.div
-            className='flex mb-20 flex-wrap justify-between sm:justify-center w-full px-10 border-neutral-600 '
+            className='flex mb-20 flex-wrap justify-between sm:justify-center w-full px-10 py-10 border-neutral-600 '
             initial={{ opacity: 0, x: -100 }} // Initial animation state
             animate={{ opacity: 1, x: 0 }} // Animation state when component mounts
             transition={{ duration: 0.5 }} // Animation duration and easing

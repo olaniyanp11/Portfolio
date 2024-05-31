@@ -21,19 +21,8 @@ export const aboutMeContent = {
   background:
     "I started my journey in software development with a deep interest in creating impactful solutions. My education at ALX Software Engineering provided me with a strong foundation in full stack development, and I have since honed my skills in various projects and professional experiences.",
   skills: {
-    technical: [
-      "JavaScript",
-      "Node.js",
-      "Express.js",
-      "React",
-      "React Native",
-      "MongoDB",
-      "HTML",
-      "CSS",
-      "Git",
-      "Docker",
-      "GraphQL",
-    ],
+    technical:["JavaScript", "Node.js", "Express.js", "React", "React Native", "MongoDB", "HTML", "CSS", "MySQL"],
+
     soft: ["Problem-Solving", "Teamwork", "Communication", "Adaptability"],
   },
   education: [
