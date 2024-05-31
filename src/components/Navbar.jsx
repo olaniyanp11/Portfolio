@@ -17,15 +17,15 @@ export const Navbar = () => {
                 <FaLinkedin className='text-neutral-200 text-lg hover:text-purple-500' />
                 <FaTwitter className='text-neutral-200 text-lg hover:text-purple-500' />
             </ul>
-            
-                <ul className={`gap-5 absolute right-10 mt-20 flex flex-col bg-transparent backdrop-blur-10 ${isOpen ? 'block' : 'hidden'} sm:hidden`}>
-                    <FaGithub className='text-neutral-200 text-lg hover:text-purple-500' />
-                    <FaLinkedin className='text-neutral-200 text-lg hover:text-purple-500' />
-                    <FaTwitter className='text-neutral-200 text-lg hover:text-purple-500' />
-                </ul>
-                <AiOutlineMenuUnfold className={`text-neutral-200 text-lg flex sm:hidden ${isOpen ? 'hidden' : 'block'}`} onClick={toggleMenu} />
-                <AiOutlineClose className={`text-neutral-200 text-lg flex sm:hidden ${isOpen ? 'block' : 'hidden'}`} onClick={toggleMenu} />
+
+            <ul className={`gap-5 absolute right-10 mt-20 flex flex-col bg-transparent backdrop-blur-10 ${isOpen ? 'block' : 'hidden'} sm:hidden`}>
+                <FaGithub className='text-neutral-200 text-lg hover:text-purple-500' />
+                <FaLinkedin className='text-neutral-200 text-lg hover:text-purple-500' />
+                <FaTwitter className='text-neutral-200 text-lg hover:text-purple-500' />
+            </ul>
+            <AiOutlineMenuUnfold className={`text-neutral-200 text-lg flex sm:hidden ${isOpen ? 'hidden' : 'block'}`} onClick={toggleMenu} />
+            <AiOutlineClose className={`text-neutral-200 text-lg flex sm:hidden ${isOpen ? 'block' : 'hidden'}`} onClick={toggleMenu} />
 
         </nav>
-    );
-};
+    )
+}
